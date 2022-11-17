@@ -3,18 +3,21 @@
   <head>
     <meta charset="utf-8">
     <title>Welcome to my web site for CS196W Web Programming!
-      <form>
-        Enter name:
-        <input type="text"name="Name"size="20">
-        <br><br>
-        Enter your favorite movie:
-        <input type="text"name="Movie"size="15">
-        Enter your 2nd favorite movie:
-        <input type="text"name="2nd Movie"size="15">
-      </form>
     </title>
   </head>
   <body>
+    <h1>Favorite movie input: </h1>
+    <form action="/action_page.php">
+      <label for="movie">Favorite Movie:</label>
+      <input type="text" id="Movie" name="movie" required>
+      <input type="submit">
+    </form>
+    <h1>Favorite Candy: </h1>
+    <form action="/action_page.php">
+      <label for="Candy">Favorite Candy:</label>
+      <input type="text" id="Candy" name="Candy" required>
+      <input type="submit">
+    </form>
     <p><h>CS196W - Dorime</h></p><p>This is a test website created to fullfil <strong>Assignment 2A</strong>. Below you will find one of my favorite memes,<strong> Dorime <strong>.
       <a href="www.CSCTesting.nerd.org" title="CSTesting">Dorime!</a></p><img src="https://i.kym-cdn.com/entries/icons/original/000/032/979/Dorime_Rat_Banner.jpg">
   </body>
