@@ -1,25 +1,18 @@
 <!DOCTYPE html>
-<html lang="en-US">
-  <head>
-    <script src="fancifymytext.js"></script>
-    <meta charset="utf-8">
-    <title>Welcome to my web site for CS196W Web Programming!
-    </title>
-  </head>
-  <body>
-    <h1>Favorite movie input: </h1>
-    <form action="/action_page.php">
-      <label for="movie">Favorite Movie:</label>
-      <input type="text" id="Movie" name="movie" required>
-      <input type="submit">
-    </form>
-    <h1>Favorite Candy: </h1>
-    <form action="/action_page.php">
-      <label for="Candy">Favorite Candy:</label>
-      <input type="text" id="Candy" name="Candy" required>
-      <input type="submit">
-    </form>
-    <p><h>CS196W - Dorime</h></p><p>This is a test website created to fullfil <strong>Assignment 2A</strong>. Below you will find one of my favorite memes,<strong> Dorime <strong>.
-      <a href="www.CSCTesting.nerd.org" title="CSTesting">Dorime!</a></p><img src="https://i.kym-cdn.com/entries/icons/original/000/032/979/Dorime_Rat_Banner.jpg">
-  </body>
+<html>
+	<head>  
+		<title>Fancify Shamcify</title>
+	</head>
+	<body>
+		<h1>Fancify my Text</h1>
+		<form action="/form/submit" method="GET">
+            <textarea rows="4" cols="30" name="Text" id="textArea" placeholder="Enter text" ></textarea>
+            <br/>
+        </form>
+        <button id="biggerButton" type="button">Bigger</button>
+        <button id="styleButton" type="button">FancyShmancy</button>
+        <button id="normieButton" type="button">BoringBetty</button>
+		<button id="mooButton" type="button">Moo</button>   
+		<script src="fancifymytext.js"></script>   
+	</body>
 </html>
