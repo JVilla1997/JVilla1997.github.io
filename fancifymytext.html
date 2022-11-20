@@ -1,19 +1,18 @@
 <!DOCTYPE html>
 <html>
-	<head>
+	<head>  
 		<title>Fancify Shamcify</title>
-
-		<!-- link to your script file here -->
-        <script src="fancifymytext.js"></script>
 	</head>
 	<body>
 		<h1>Fancify my Text</h1>
 		<form action="/form/submit" method="GET">
-            <textarea rows="4" cols="30" name="Text" placeholder="Enter text"></textarea>
+            <textarea rows="4" cols="30" name="Text" id="textArea" placeholder="Enter text" ></textarea>
             <br/>
         </form>
-        <button type="button">Bigger</button>
-        <button type="button">FancyShmancy</button>
-        <button type="button">BoringBetty</button>
+        <button id="biggerButton" type="button">Bigger</button>
+        <button id="styleButton" type="button">FancyShmancy</button>
+        <button id="normieButton" type="button">BoringBetty</button>
+		<button id="mooButton" type="button">Moo</button>   
+		<script src="fancifymytext.js"></script>   
 	</body>
 </html>
